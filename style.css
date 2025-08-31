@@ -1,0 +1,94 @@
+/* Font
+font-family: "Rubik", sans-serif;
+
+font-family: "Ubuntu", sans-serif;
+
+ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.container{
+    max-width: 80%;
+    /* background-color: rgb(219, 98, 183); */
+    padding: 34px;
+    margin: auto;
+}
+
+.container p{
+    text-align: center;
+    
+    margin-bottom: 10px;
+
+
+}
+
+.container h2{
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+
+
+input, textarea{
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    color: white;
+    background-color: purple;
+    margin: 6px;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(126, 78, 104) ;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.submitmsg{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+   
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+  input, textarea {
+    width: 95%;
+  }
+  .container h2 {
+    font-size: 28px;
+  }
+}
+.btn:hover {
+  background-color: darkmagenta;
+}
